@@ -65,8 +65,7 @@ function Design() {
 
         </div>
         <div className="col d-flex justify-content-start align-items-center">
-          <a className='btn contact-btn' href="#">Contact Us</a>
-
+        <p>contact us</p>
         </div>
       </div>
       <div className="row my-5">

@@ -1,5 +1,4 @@
 import React from "react";
-import Kitchen from "../assets/images/kitchen.png";
 import OpenKitchen from '../assets/images/open-kitchen.jpeg';
 import LightedKitchen from '../assets/images/lighted-kitchen.jpeg';
 import IndoorKitchen from '../assets/images/indoor-kitchen.jpeg';

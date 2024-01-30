@@ -1,6 +1,26 @@
 import Kitchen from "./assets/images/kitchen.png";
 
 
+export const teamData = () => {
+  return [
+    {
+      "position": "owner",
+      "firstname": "graham",
+      "secondname": "wicks"
+    },
+    {
+      "position": "worker",
+      "firstname": "edyta",
+      "secondname": "wicks"
+    },
+    {
+      "position": "worker",
+      "firstname": "mia",
+      "secondname": "wicks"
+    }
+  ]
+}
+
 
 export const blogData = () => {
     return [

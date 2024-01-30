@@ -94,7 +94,7 @@ body {
   }
 }
 
-@media (max-width: 750px) {
+@media (max-width: 920px) {
   .menu-icon {
     display: block;
     cursor: pointer;
@@ -435,10 +435,6 @@ body {
 
 /* blogs */
 
-.blog-post {
-  
-}
-
 .blog-card {
   height: 300px;
   width: 300px;
@@ -512,3 +508,9 @@ body {
 
 }
 
+
+.flippable-card-container {
+  height: 500px;
+  width: 300px;
+  perspective: 1000px;
+}

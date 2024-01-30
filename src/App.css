@@ -510,7 +510,9 @@ body {
 
 
 .flippable-card-container {
-  height: 500px;
-  width: 300px;
+  display: flex;  /* Use flexbox to make the cards sit next to each other */
+  height: 300px;
+  width: 100%;  /* Use 100% width to ensure it takes the full width of the container */
   perspective: 1000px;
+  justify-content: space-between;  /* Adjust spacing between cards */
 }

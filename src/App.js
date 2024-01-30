@@ -1,11 +1,26 @@
 import './App.css';
+import Footer from './components/Footer';
+import Navbar from './components/Navbar';
+import Home from './pages/home';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+
 
 function App() {
   return (
-    <div className="App">
-      <h1>hih</h1>
+    <div className='app'>
+      <Router>
+        <Navbar />
+        <Routes>
+          <Route path='/' element={<Home />} />
+        </Routes>
+        <Footer />
+      </Router>
+
     </div>
+    
   );
 }
+
+
 
 export default App;

@@ -11,7 +11,7 @@ import Logo from '../assets/images/logo.png';
 const Footer = () => {
   return (
     <div className='footer'>
-        <div className="row">
+        <div className="row mobile-footer">
             <div className="col d-flex justify-content-center align-items-center flex-column my-5">
                 <div className="div">
                     <div className="logo">
@@ -27,9 +27,9 @@ const Footer = () => {
                     </div>
                     <div className="email">
                         <MdEmail />
-                        <p>link</p>
+                        <p className='email-address'>graham@extendout.co.uk</p>
                     </div>
-                    <p className='my-4'>© 2024 ShapeHouse | FAQ Privacy Policy</p>
+                    <p className='my-4 mobile-text'>© 2024 ShapeHouse | FAQ Privacy Policy</p>
                 </div>
             </div>
             <div className="col d-flex justify-content-center align-items-center flex-column">

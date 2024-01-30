@@ -3,6 +3,8 @@ import { NavLink } from 'react-router-dom';
 import Hamburger from '../assets/images/menu.png';
 import Logo from '../assets/images/logo.png';
 import '../../src/App.css';
+import { Link } from 'react-router-dom';
+
 
 const Navbar = () => {
   const [showNavbar, setShowNavbar] = useState(false);
@@ -15,7 +17,11 @@ const Navbar = () => {
     <nav className="navbar">
       <div className="container">
         <div className="logo">
-          <img className='logo-img' src={Logo} alt="" />
+          <Link to="/">
+            <img className='logo-img' src={Logo} alt="" />
+
+          </Link>
+
         </div>
         <div className="menu-icon" onClick={handleShowNavbar}>
             {/* Use the <img> tag for images */}
@@ -24,28 +30,28 @@ const Navbar = () => {
         <div className={`nav-elements  ${showNavbar && 'active'}`}>
           <ul>
             <li>
-              <NavLink to="/">Home</NavLink>
+              <NavLink onClick={handleShowNavbar} to="/">Home</NavLink>
             </li>
             <li>
-              <NavLink to="/design">Design & planning</NavLink>
+              <NavLink onClick={handleShowNavbar} to="/design">Design & planning</NavLink>
             </li>
             <li>
-              <NavLink to="/build">Build</NavLink>
+              <NavLink onClick={handleShowNavbar} to="/build">Build</NavLink>
             </li>
             <li>
-              <NavLink to="/gallary">Gallary</NavLink>
+              <NavLink onClick={handleShowNavbar} to="/gallary">Gallary</NavLink>
             </li>
             <li>
-              <NavLink to="/team">Team</NavLink>
+              <NavLink onClick={handleShowNavbar} to="/team">Team</NavLink>
             </li>
             <li>
-              <NavLink to="/blog">Blog</NavLink>
+              <NavLink onClick={handleShowNavbar} to="/blog">Blog</NavLink>
             </li>
             <li>
-              <NavLink to="/testimonials">Testimonials</NavLink>
+              <NavLink onClick={handleShowNavbar} to="/testimonials">Testimonials</NavLink>
             </li>
             <li>
-              <NavLink to="/contact">Contact</NavLink>
+              <NavLink onClick={handleShowNavbar} to="/contact">Contact</NavLink>
             </li>
           </ul>
         </div>

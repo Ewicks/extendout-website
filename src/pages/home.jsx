@@ -1,7 +1,7 @@
 import React from "react";
-import Homeimage from "../assets/images/home-img.png";
 import Kitchen from "../assets/images/kitchen.png";
 import Kitchentwo from "../assets/images/kitchentwo.png";
+import Homeimage from "../assets/images/homeimage.jpg";
 import "../../src/App.css";
 import { Link } from 'react-router-dom';
 

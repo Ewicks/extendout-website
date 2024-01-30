@@ -27,7 +27,7 @@ const Footer = () => {
                     </div>
                     <div className="email">
                         <MdEmail />
-                        <a href="#">Link</a>
+                        <p>link</p>
                     </div>
                     <p className='my-4'>© 2024 ShapeHouse | FAQ Privacy Policy</p>
                 </div>

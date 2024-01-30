@@ -144,9 +144,11 @@ body {
 
 .orange-btn {
   color: white;
+  font-weight: 600;
   border: 5px solid #DD4B12;
   border-radius: 0px;
-  font-size: 30px;
+  font-size: 20px;
+  
 
 }
 
@@ -335,6 +337,7 @@ body {
   width: 100%;
   height: auto;
   display: block;
+  max-height: 300px;
 }
 
 .gallary-name-tag {

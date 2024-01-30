@@ -1,5 +1,5 @@
 import React from "react";
-import Kitchen from "../assets/images/kitchen.png";
+import KitchenFour from "../assets/images/kitchen-four.jpeg";
 
 
 function Build() {
@@ -13,7 +13,7 @@ function Build() {
         </div>
         <div className="row">
           <div className="col">
-            <img className="design-img" src={Kitchen} alt="" />
+            <img className="design-img" src={KitchenFour} alt="" />
           </div>
           <div className="col">
             <div className="design-container">

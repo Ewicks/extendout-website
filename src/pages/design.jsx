@@ -1,4 +1,5 @@
 import React from 'react'
+import Oven from "../assets/images/oven.jpeg";
 import Kitchen from "../assets/images/kitchen.png";
 
 function Design() {
@@ -12,7 +13,7 @@ function Design() {
       </div>
       <div className="row gap-5">
         <div className="col">
-          <img className='design-img' src={Kitchen} alt="" />
+          <img className='design-img' src={Oven} alt="" />
         </div>
         <div className="col">
           <div className="design-container">

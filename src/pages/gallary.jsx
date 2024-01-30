@@ -1,5 +1,12 @@
 import React from "react";
 import Kitchen from "../assets/images/kitchen.png";
+import OpenKitchen from '../assets/images/open-kitchen.jpeg';
+import LightedKitchen from '../assets/images/lighted-kitchen.jpeg';
+import IndoorKitchen from '../assets/images/indoor-kitchen.jpeg';
+import OpenRoom from '../assets/images/open-room.jpeg';
+import Bath from '../assets/images/bath.jpeg';
+import IndoorKitchenTwo from '../assets/images/indoor-kitchen-two.jpeg';
+import KitchenThree from '../assets/images/kitchen-three.jpeg';
 
 function Gallary() {
   return (
@@ -14,7 +21,7 @@ function Gallary() {
           <div className="col">
             <div className="gallery-container">
               <div className="gallery-item">
-                <img src={Kitchen} alt="" />
+                <img src={LightedKitchen} alt="" />
                 <p
                   className="gallary-name-tag d-flex 
                 justify-content-center 
@@ -24,7 +31,7 @@ function Gallary() {
                 </p>
               </div>
               <div className="gallery-item">
-                <img src={Kitchen} alt="" />
+                <img src={OpenKitchen} alt="" />
                 <p
                   className="gallary-name-tag d-flex 
                 justify-content-center 
@@ -34,7 +41,7 @@ function Gallary() {
                 </p>
               </div>
               <div className="gallery-item">
-                <img src={Kitchen} alt="" />
+                <img src={IndoorKitchen} alt="" />
                 <p
                   className="gallary-name-tag d-flex 
                 justify-content-center 
@@ -44,7 +51,7 @@ function Gallary() {
                 </p>
               </div>
               <div className="gallery-item">
-                <img src={Kitchen} alt="" />
+                <img src={OpenRoom} alt="" />
                 <p
                   className="gallary-name-tag d-flex 
                 justify-content-center 
@@ -54,7 +61,7 @@ function Gallary() {
                 </p>
               </div>
               <div className="gallery-item">
-                <img src={Kitchen} alt="" />
+                <img src={Bath} alt="" />
                 <p
                   className="gallary-name-tag d-flex 
                 justify-content-center 
@@ -64,7 +71,7 @@ function Gallary() {
                 </p>
               </div>
               <div className="gallery-item">
-                <img src={Kitchen} alt="" />
+                <img src={IndoorKitchenTwo} alt="" />
                 <p
                   className="gallary-name-tag d-flex 
                 justify-content-center 
@@ -74,7 +81,7 @@ function Gallary() {
                 </p>
               </div>
               <div className="gallery-item">
-                <img src={Kitchen} alt="" />
+                <img src={KitchenThree} alt="" />
                 <p
                   className="gallary-name-tag d-flex 
                 justify-content-center 

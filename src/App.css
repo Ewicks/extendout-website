@@ -146,7 +146,7 @@ body {
   color: white;
   font-weight: 800;
   border: 3px solid #DD4B12;
-  background-color: rgba(221, 75, 18, .5);
+  background-color: #DD4B12;
   border-radius: 0px;
   font-size: 20px;
   
@@ -155,7 +155,7 @@ body {
 
 .orange-btn:hover {
   border: 5px solid #DD4B12;
-  background-color: #DD4B12;
+  background-color: rgba(221, 75, 18, .5);
 }
 
 .home-subtitle {

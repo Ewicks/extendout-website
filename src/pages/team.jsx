@@ -11,9 +11,7 @@ function Team() {
       </div>
       <div className="row my-5">
         <div className="col">
-          <div className='d-flex justify-content-center align-items-center'>
-            <Flippablecard />
-          </div>
+          <Flippablecard />
         </div>
       </div>
      

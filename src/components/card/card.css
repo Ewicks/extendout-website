@@ -7,6 +7,9 @@
     user-select: none;
     cursor: pointer;
     border-radius: 0px;
+    flex: 0 0 calc(33.33% - 20px); /* Three items in a row on larger screens */
+    margin: 10px; /* Adjust margin as needed */
+    box-sizing: border-box;
 }
 
 

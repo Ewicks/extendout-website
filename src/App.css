@@ -515,6 +515,8 @@ body {
   width: 100%;  /* Use 100% width to ensure it takes the full width of the container */
   perspective: 1000px;
   justify-content: space-between;  /* Adjust spacing between cards */
+  flex-wrap: wrap;
+  margin: 20px;
 }
 
 
@@ -522,7 +524,8 @@ body {
   height: 100%;
   width: 100%;
   background-repeat: no-repeat;
-  object-fit: contain;
+  object-fit: cover;
+  object-position: top;
 }
 
 .details {
@@ -584,19 +587,10 @@ body {
 }
 
 
-
-.flippable-card-container {
-  display: flex;
-  flex-wrap: wrap;  /* Allow cards to wrap to the next line */
-  height: 500px;
-  width: 100%;
-  perspective: 1000px;
-  justify-content: space-between;
-}
-
 .card {
-  flex: 0 0 calc(33.33% - 20px); /* Three cards in a row on larger screens */
+  flex: 0 0 calc(33.33% - 20px); /* Three items in a row on larger screens */
   margin: 10px; /* Adjust margin as needed */
+  box-sizing: border-box;
 }
 
 @media (max-width: 1199px) {

@@ -1,5 +1,7 @@
 import React from "react";
 import KitchenFour from "../assets/images/kitchen-four.jpeg";
+import { Link } from 'react-router-dom';
+
 
 
 function Build() {
@@ -11,7 +13,7 @@ function Build() {
             <h1 className="my-4">Design & Planning</h1>
           </div>
         </div>
-        <div className="row">
+        <div className="row my-5">
           <div className="col">
             <img className="design-img" src={KitchenFour} alt="" />
           </div>
@@ -63,7 +65,10 @@ function Build() {
                  as we meticulously attend to every detail of
                 your extraordinary build.
                 </p>
-                <p>contact us</p>
+                <Link className='contact-btn my-5' to='/contact'>
+                  Contact Us
+
+                </Link>
             </div>
           </div>
         </div>

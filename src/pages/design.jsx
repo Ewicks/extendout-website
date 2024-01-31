@@ -1,6 +1,7 @@
 import React from 'react'
 import Oven from "../assets/images/oven.jpeg";
 import Kitchen from "../assets/images/kitchen.png";
+import { Link } from 'react-router-dom'
 
 function Design() {
   return (
@@ -66,7 +67,10 @@ function Design() {
 
         </div>
         <div className="col d-flex justify-content-start align-items-center">
-        <p>contact us</p>
+        <Link className='contact-btn my-5' to='/contact'>
+          Contact Us
+        </Link>
+
         </div>
       </div>
       <div className="row my-5">

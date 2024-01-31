@@ -144,8 +144,9 @@ body {
 
 .orange-btn {
   color: white;
-  font-weight: 600;
-  border: 5px solid #DD4B12;
+  font-weight: 800;
+  border: 3px solid #DD4B12;
+  background-color: rgba(221, 75, 18, .5);
   border-radius: 0px;
   font-size: 20px;
   
@@ -154,7 +155,7 @@ body {
 
 .orange-btn:hover {
   border: 5px solid #DD4B12;
-  background-color: rgb(221, 75, 18);
+  background-color: #DD4B12;
 }
 
 .home-subtitle {
@@ -294,6 +295,9 @@ body {
 .contact-btn {
   border: 3px solid #DD4B12;
   border-radius: 0px;
+  text-decoration: none;
+  color: black;
+  padding: 10px;
 }
 
 .contact-build-btn {

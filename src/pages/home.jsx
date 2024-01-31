@@ -2,6 +2,11 @@ import React from "react";
 import Kitchen from "../assets/images/kitchen.png";
 import Kitchentwo from "../assets/images/kitchentwo.png";
 import Homeimage from "../assets/images/homeimage.jpg";
+import Extensions from '../assets/images/extensions.jpeg';
+import Loft from '../assets/images/loft.jpeg';
+import Renovation from '../assets/images/renovations.jpeg';
+import Remodelling from '../assets/images/remodelling.jpeg';
+
 import "../../src/App.css";
 import { Link } from 'react-router-dom';
 
@@ -26,7 +31,7 @@ const Home = () => {
         </div>
         <div className="col p-0">
           <div className="extension-example">
-            <img className="kitchen-img" src={Kitchen} alt="" />
+            <img className="kitchen-img" src={Extensions} alt="" />
             <div className="overlay-text">
               <p>aasd</p>
               <p> My super text.</p>
@@ -38,7 +43,7 @@ const Home = () => {
       <div className="row">
         <div className="col p-0">
           <div className="extension-example">
-            <img className="kitchen-img" src={Kitchentwo} alt="" />
+            <img className="kitchen-img" src={Loft} alt="" />
             <div className="overlay-text">
               <p>aasd</p>
               <p> My super text.</p>
@@ -66,7 +71,7 @@ const Home = () => {
         </div>
         <div className="col p-0">
           <div className="extension-example">
-            <img className="kitchen-img" src={Kitchen} alt="" />
+            <img className="kitchen-img" src={Renovation} alt="" />
             <div className="overlay-text">
               <p>aasd</p>
               <p> My super text.</p>
@@ -80,7 +85,7 @@ const Home = () => {
           <div className="extension-example">
             <img className="kitchen-img" src={Kitchentwo} alt="" />
             <div className="overlay-text">
-              <p>aasd</p>
+              <p>no image</p>
               <p> My super text.</p>
               <p>asd asd asd asdads.</p>
             </div>
@@ -93,6 +98,27 @@ const Home = () => {
             passion for good design and an eye for detail. We set the bar high
             when it comes to the level of craftsmanship and service we provide.
           </p>
+        </div>
+      </div>
+      
+      <div className="row">
+        <div className="col d-flex justify-content-center align-items-center p-0 flex-column">
+          <h1>Remodelling</h1>
+          <p className="p-5">
+            ExtendOut is a dedicated Loft Conversion and Extension company with
+            passion for good design and an eye for detail. We set the bar high
+            when it comes to the level of craftsmanship and service we provide.
+          </p>
+        </div>
+        <div className="col p-0">
+          <div className="extension-example">
+            <img className="kitchen-img" src={Remodelling} alt="" />
+            <div className="overlay-text">
+              <p>aasd</p>
+              <p> My super text.</p>
+              <p>asd asd asd asdads.</p>
+            </div>
+          </div>
         </div>
       </div>
       <div className="row">

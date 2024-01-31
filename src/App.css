@@ -511,8 +511,102 @@ body {
 
 .flippable-card-container {
   display: flex;  /* Use flexbox to make the cards sit next to each other */
-  height: 300px;
+  height: 500px;
   width: 100%;  /* Use 100% width to ensure it takes the full width of the container */
   perspective: 1000px;
   justify-content: space-between;  /* Adjust spacing between cards */
+}
+
+
+.card-img {
+  height: 100%;
+  width: 100%;
+  background-repeat: no-repeat;
+  object-fit: contain;
+}
+
+.details {
+  position: absolute;
+  bottom: 30px;
+  left: 20px;
+  color: white;
+  font-weight: 800;
+}
+
+.position {
+  font-weight: 400;
+}
+
+.border-position {
+  border-bottom: 5px solid white;
+  width: 50%;
+  
+}
+
+.person-stats {
+  position: absolute;
+  right: 0;
+  left: 0;
+  bottom: 20px;
+  padding: 0px 20px;
+
+}
+
+.stat {
+  font-size: 10px;
+  display: flex;
+  margin: 0px;
+  justify-content: center;
+  align-items: center;
+  font-weight: 700;
+  color: white;
+}
+
+.stat dd {
+  width: 100%;
+}
+
+.stat dt {
+  width: 45%;
+  text-align: right;
+  padding: 0 1rem 0 0;
+  text-transform: uppercase;
+}
+
+.stat-block {
+  background: #f17b2d;
+  text-align: right;
+  padding: 4px 5px;
+  text-transform: uppercase;
+  display: table;
+  transition: width .25s ease;
+  width: 0;
+}
+
+
+
+.flippable-card-container {
+  display: flex;
+  flex-wrap: wrap;  /* Allow cards to wrap to the next line */
+  height: 500px;
+  width: 100%;
+  perspective: 1000px;
+  justify-content: space-between;
+}
+
+.card {
+  flex: 0 0 calc(33.33% - 20px); /* Three cards in a row on larger screens */
+  margin: 10px; /* Adjust margin as needed */
+}
+
+@media (max-width: 1199px) {
+  .card {
+    flex: 0 0 calc(50% - 20px); /* Two cards in a row for medium devices */
+  }
+}
+
+@media (max-width: 767px) {
+  .card {
+    flex: 0 0 calc(100% - 20px); /* One card in a row on smaller screens */
+  }
 }

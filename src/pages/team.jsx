@@ -6,10 +6,10 @@ function Team() {
     <div className='gallary-padding'>
       <div className="row">
         <div className="col">
-          <h1>tset</h1>
+          <h1 className='my-5'>Office Team</h1>
         </div>
       </div>
-      <div className="row">
+      <div className="row my-5">
         <div className="col">
           <div className='d-flex justify-content-center align-items-center'>
             <Flippablecard />

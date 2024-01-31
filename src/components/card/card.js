@@ -6,7 +6,7 @@ function Card({ member, onClick }) {
   return (
     <div className='card' onClick={onClick}>
       <div className='card-back'>
-          <img src={Worker} className='img-fluid card-img' />
+          <img alt='' src={Worker} className='img-fluid card-img' />
             <div className='person-stats'>
                 <dl className='stat'>
                     <dt>Years In industry</dt>
@@ -32,7 +32,7 @@ function Card({ member, onClick }) {
             </div>
       </div>
       <div className='card-front'>
-        <img src={Worker} className='img-fluid card-img' />
+        <img alt='' src={Worker} className='img-fluid card-img' />
         <div className='details'>
             <div className='position'>
             {`${member.position}`}

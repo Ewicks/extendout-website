@@ -1,40 +1,84 @@
-import React from 'react'
+import React from "react";
+import emailjs from "emailjs-com";
+import { Form, Input, TextArea, Button } from "semantic-ui-react";
+import Swal from "sweetalert2";
 
-const Contact = () => {
+const SERVICE_ID = "service_vhd24nq";
+const TEMPLATE_ID = "template_od1btv7";
+const USER_ID = "dwyA3aNUaqZqc51RC";
+
+const App = () => {
+  const handleOnSubmit = (e) => {
+    e.preventDefault();
+    emailjs.sendForm(SERVICE_ID, TEMPLATE_ID, e.target, USER_ID).then(
+      (result) => {
+        console.log(result.text);
+        Swal.fire({
+          icon: "success",
+          title: "Message Sent Successfully",
+        });
+      },
+      (error) => {
+        console.log(error.text);
+        Swal.fire({
+          icon: "error",
+          title: "Ooops, something went wrong",
+          text: error.text,
+        });
+      }
+    );
+    e.target.reset();
+  };
+
   return (
-    <div>
-      <div className="extra-padding">
-        <div className="row my-5">
-          <div className="col">
-            <h1>Contact Us</h1>
-            <p>Contact us and we will get back to you as soon as we can</p>
-          </div>
-        </div>
-        <div className="row">
-          <div className="col">
-          <form action="mailto:ethanowicks9@example.com" className='form-contact'>
-            <div class="form-group my-2">
-              <label for="exampleInputEmail1">Email address</label>
-              <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email" />
-            </div>
-            <div class="form-group my-2">
-              <label for="exampleInputPassword1">Password</label>
-              <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password" />
-            </div>
-            <div class="form-group my-2">
-              <label for="exampleInputPassword1">Description</label>
-              <textarea type="password" class="form-control" id="exampleInputPassword1" placeholder="enter details here..." />
-            </div>
-            <button type="submit" value="Send" class="btn btn-form mb-5">Send</button>
-          </form>
+    <div className="contact">
+      <div className="row">
+        <div className="col my-5 d-flex justify-content-start align-items-center flex-column">
 
-          </div>
+          <Form className="my-5" onSubmit={handleOnSubmit}>
+            <div className="form-content">
+              <h1 className="pt-5">Get In Touch</h1>
+              <small className="mb-5 text-muted">We will get back to you as soon as possible</small>
+              <div className="contact-form-border"></div>
+              <Form.Field
+                id="form-input-control-email"
+                control={Input}
+                name="user_email"
+                placeholder="Email"
+                required
+                icon="mail"
+                iconPosition="left"
+                className="my-3"
+              />
+              <Form.Field
+                id="form-input-control-last-name"
+                control={Input}
+                name="user_name"
+                placeholder="Name"
+                required
+                icon="user circle"
+                iconPosition="left"
+                className="my3"
+              />
+              <Form.Field
+                id="form-textarea-control-opinion"
+                control={TextArea}
+                name="user_message"
+                placeholder="Message…"
+                className="my-3"
+                required
+              />
+              <Button type="submit" color="green" className="btn mb-5">
+                Submit
+              </Button>
+
+              </div>
+            
+          </Form>
         </div>
-       
       </div>
     </div>
-   
-  )
-}
+  );
+};
 
-export default Contact
+export default App;

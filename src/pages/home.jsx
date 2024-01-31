@@ -11,7 +11,7 @@ const Home = () => {
       <img className="home-img" src={Homeimage} alt="" />
       <div className="center">
       
-        <Link to='/contact' className="btn orange-btn mt-4">Contact Us</Link>
+        <Link to='/contact' className="btn orange-btn">Contact Us</Link>
       </div>
       <div className="row">
       </div>

@@ -4,6 +4,7 @@ import { MdEmail } from "react-icons/md";
 import { FaInstagram } from "react-icons/fa";
 import { FaFacebook } from "react-icons/fa";
 import Logo from '../assets/images/logo.png';
+import { Link } from 'react-router-dom'
 
 
 
@@ -19,15 +20,17 @@ const Footer = () => {
                     </div>
                     <div className="phone mt-3">
                         <FaPhone />
-                        <p className='phone-number'>0203 930 3139</p>
+                        <p className='phone-number'>07958635590</p>
                     </div>
                     <div className="phone">
                         <FaPhone />
-                        <p className='phone-number'>0203 930 3139</p>
+                        <p className='phone-number'>02084028879</p>
                     </div>
                     <div className="email">
                         <MdEmail />
-                        <p className='email-address'>graham@extendout.co.uk</p>
+                        <Link to='/contact' className='email-address'>
+                            graham@extendout.co.uk
+                        </Link>
                     </div>
                     <p className='my-4 mobile-text'>© 2024 ShapeHouse | FAQ Privacy Policy</p>
                 </div>

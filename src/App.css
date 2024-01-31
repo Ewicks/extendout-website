@@ -1,7 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap');
 @import "~bootstrap/dist/css/bootstrap.css";
 
-
 /* Your additional styles go here */
 
 body {
@@ -148,9 +147,8 @@ body {
   border: 3px solid #DD4B12;
   background-color: #DD4B12;
   border-radius: 0px;
-  font-size: 20px;
-  
-
+  font-size: 25px;
+  white-space: nowrap;
 }
 
 .orange-btn:hover {
@@ -168,11 +166,12 @@ body {
 
 .center {
   position: absolute;
-  top: 60%;
+  top: 68%;
   left: 85%;
   transform: translate(-50%, -50%);
   text-align: center;
   color: white;
+  margin: 0px;
 }
 
 .kitchen-img {

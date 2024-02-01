@@ -20,8 +20,8 @@ const Home = () => {
       </div>
       <div className="container-fluid">
         <div className="row">
-          <div className="col d-flex justify-content-center align-items-center flex-column">
-            <h1>Extensions</h1>
+          <div className="col-md-6 col-sm-12 d-flex justify-content-center align-items-center flex-column">
+            <h1 className="mt-5">Extensions</h1>
             <p className="p-5">
               ExtendOut is a dedicated Loft Conversion and Extension company
               with passion for good design and an eye for detail. We set the bar
@@ -29,7 +29,7 @@ const Home = () => {
               provide.
             </p>
           </div>
-          <div className="col">
+          <div className="col-md-6 col-sm-12">
             <div className="extension-example">
               <img className="kitchen-img" src={Extensions} alt="" />
               <div className="overlay-text">
@@ -43,7 +43,7 @@ const Home = () => {
       </div>
       <div className="container-fluid">
         <div className="row">
-          <div className="col">
+          <div className="col-md-6 col-sm-12">
             <div className="extension-example">
               <img className="kitchen-img" src={Loft} alt="" />
               <div className="overlay-text">
@@ -53,8 +53,8 @@ const Home = () => {
               </div>
             </div>
           </div>
-          <div className="col d-flex justify-content-center align-items-center flex-column">
-            <h1>Loft Conversions</h1>
+          <div className="col-md-6 col-sm-12 d-flex justify-content-center align-items-center flex-column">
+            <h1 className="mt-5">Loft Conversions</h1>
             <p className="p-5">
               ExtendOut is a dedicated Loft Conversion and Extension company
               with passion for good design and an eye for detail. We set the bar
@@ -66,8 +66,8 @@ const Home = () => {
       </div>
       <div className="container-fluid">
         <div className="row">
-          <div className="col d-flex justify-content-center align-items-center flex-column">
-            <h1>Renovation</h1>
+          <div className="col-md-6 col-sm-12 d-flex justify-content-center align-items-center flex-column">
+            <h1 className="mt-5">Renovation</h1>
             <p className="p-5">
               ExtendOut is a dedicated Loft Conversion and Extension company
               with passion for good design and an eye for detail. We set the bar
@@ -75,7 +75,7 @@ const Home = () => {
               provide.
             </p>
           </div>
-          <div className="col">
+          <div className="col-md-6 col-sm-12">
             <div className="extension-example">
               <img className="kitchen-img" src={Renovation} alt="" />
               <div className="overlay-text">
@@ -89,7 +89,7 @@ const Home = () => {
       </div>
       <div className="container-fluid">
         <div className="row">
-          <div className="col">
+          <div className="col-md-6 col-sm-12">
             <div className="extension-example">
               <img className="kitchen-img" src={Kitchentwo} alt="" />
               <div className="overlay-text">
@@ -99,8 +99,8 @@ const Home = () => {
               </div>
             </div>
           </div>
-          <div className="col d-flex justify-content-center align-items-center flex-column">
-            <h1>New Build</h1>
+          <div className="col-md-6 col-sm-12 d-flex justify-content-center align-items-center flex-column">
+            <h1 className="mt-5">New Build</h1>
             <p className="p-5">
               ExtendOut is a dedicated Loft Conversion and Extension company
               with passion for good design and an eye for detail. We set the bar
@@ -113,8 +113,8 @@ const Home = () => {
 
       <div className="container-fluid">
         <div className="row">
-          <div className="col d-flex justify-content-center align-items-center flex-column">
-            <h1>Remodelling</h1>
+          <div className="col-md-6 col-sm-12 d-flex justify-content-center align-items-center flex-column">
+            <h1 className="mt-5">Remodelling</h1>
             <p className="p-5">
               ExtendOut is a dedicated Loft Conversion and Extension company
               with passion for good design and an eye for detail. We set the bar
@@ -122,7 +122,7 @@ const Home = () => {
               provide.
             </p>
           </div>
-          <div className="col">
+          <div className="col-md-6 col-sm-12">
             <div className="extension-example">
               <img className="kitchen-img" src={Remodelling} alt="" />
               <div className="overlay-text">

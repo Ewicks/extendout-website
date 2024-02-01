@@ -15,7 +15,7 @@ const Navbar = () => {
 
   return (
     <nav className="navbar">
-      <div className="container">
+      <div className="container-fluid">
         <div className="logo">
           <Link to="/">
             <img className='logo-img' src={Logo} alt="" />

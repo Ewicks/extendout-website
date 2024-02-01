@@ -22,6 +22,14 @@ body {
   padding: 0px;
 }
 
+.col-md-6 {
+  padding: 0px;
+}
+
+.col-sm-12 {
+  padding: 0px;
+}
+
 .navbar {
   height: 10vh;
   background-color: #010101;
@@ -200,6 +208,7 @@ body {
 
 .extension-example {
   position: relative;
+  height: 100%;
 }
 
 /* Footer */
@@ -636,6 +645,11 @@ body {
 @media (max-width: 767px) {
   .card {
     flex: 0 0 calc(100% - 20px); /* One card in a row on smaller screens */
+  }
+
+  .center {
+    top: 65%;
+    left: 70%;
   }
 }
 

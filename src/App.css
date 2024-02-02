@@ -428,6 +428,10 @@ body {
   padding: 10px;
 }
 
+.contact form textarea {
+  padding: 10px;
+}
+
 .contact form button {
   background-color: #2449A9;
   width: 100%;

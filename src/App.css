@@ -664,6 +664,42 @@ body {
   }
 }
 
+@media (max-width: 800px) {
+
+  .logo-img {
+    width: 120px;
+  }
+
+  .img-contain {
+    object-fit: cover !important;
+    height: 100%;
+  }
+
+  .mobile-design {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .extra-padding {
+    padding: 0px 10px;
+  }
+
+  .col-center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .design-title {
+    text-align: center;
+  }
+
+  .content-center {
+    justify-content: center !important;
+  }
+
+}
+
 .contact-banner {
   height: 100px;
   width: 100%;
@@ -698,4 +734,8 @@ body {
 
 .card-body {
   overflow-y: scroll;
+}
+
+.img-contain {
+  object-fit: contain !important;
 }

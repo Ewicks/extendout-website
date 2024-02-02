@@ -10,16 +10,16 @@ function Design() {
         <div className="container-fluid">
           <div className="row">
             <div className="col">
-              <h1 className="my-4">Design & Planning</h1>
+              <h1 className="my-4 design-title">Design & Planning</h1>
             </div>
           </div>
         </div>
         <div className="container-fluid">
-          <div className="row gap-5">
+          <div className="row gap-5 mobile-design mb-5">
             <div className="col">
-              <img className="design-img" src={Oven} alt="" />
+              <img className="design-img img-contain " src={Oven} alt="" />
             </div>
-            <div className="col">
+            <div className="col col-center">
               <div className="design-container">
                 <p>
                   While renovations can be time-consuming and complicated, your
@@ -51,8 +51,8 @@ function Design() {
           </div>
         </div>
         <div className="container-fluid">
-          <div className="row">
-            <div className="col">
+          <div className="row px-5 mobile-design">
+            <div className="col col-center">
               <div className="bullet-points">
                 <h1>Our design & planning proposal includes:</h1>
                 <ul className="lh-lg">
@@ -70,7 +70,7 @@ function Design() {
                 </ul>
               </div>
             </div>
-            <div className="col d-flex justify-content-start align-items-center">
+            <div className="col d-flex justify-content-start align-items-center content-center">
               <Link className="contact-btn my-5" to="/contact">
                 Contact Us
               </Link>
@@ -78,7 +78,7 @@ function Design() {
           </div>
         </div>
         <div className="container-fluid">
-          <div className="row gap-5 my-5">
+          <div className="row gap-5 my-5 mobile-design">
             <div className="col">
               <img className="design-imgg" src={Kitchen} alt="" />
             </div>

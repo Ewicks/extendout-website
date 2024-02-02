@@ -1,7 +1,7 @@
-import React, { useState } from 'react';
-import Card from './card/card';
-import { CSSTransition } from 'react-transition-group';
-import { teamData } from '../dummy';
+import React, { useState } from "react";
+import Card from "./card/card";
+import { CSSTransition } from "react-transition-group";
+import { teamData } from "../dummy";
 
 function Flippablecard() {
   const team = teamData();
@@ -16,9 +16,14 @@ function Flippablecard() {
   };
 
   return (
-    <div className='flippable-card-container'>
-      {team.map((member, index) => (
-        <CSSTransition key={index} in={showFront[index]} timeout={300} classNames='flip'>
+    <div className="flippable-card-container">
+        {team.map((member, index) => (
+        <CSSTransition
+          key={index}
+          in={showFront[index]}
+          timeout={300}
+          classNames="flip"
+        >
           <Card member={member} onClick={() => handleCardClick(index)} />
         </CSSTransition>
       ))}

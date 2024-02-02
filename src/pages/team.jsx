@@ -9,13 +9,7 @@ function Team() {
           <h1 className='my-5'>Office Team</h1>
         </div>
       </div>
-      <div className="row my-5">
-        <div className="col">
-          <Flippablecard />
-        </div>
-      </div>
-     
-      
+        <Flippablecard />
     </div>
   )
 }

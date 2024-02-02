@@ -554,7 +554,7 @@ body {
 
 .flippable-card-container {
   display: flex;  /* Use flexbox to make the cards sit next to each other */
-  height: 500px;
+  height: auto;
   width: 100%;  /* Use 100% width to ensure it takes the full width of the container */
   perspective: 1000px;
   justify-content: space-between;  /* Adjust spacing between cards */
@@ -620,7 +620,7 @@ body {
 }
 
 .stat-block {
-  background: #f17b2d;
+  background: #DD4B12;
   text-align: right;
   padding: 4px 5px;
   text-transform: uppercase;
@@ -634,6 +634,7 @@ body {
   flex: 0 0 calc(33.33% - 20px); /* Three items in a row on larger screens */
   margin: 10px; /* Adjust margin as needed */
   box-sizing: border-box;
+  
 }
 
 @media (max-width: 1199px) {

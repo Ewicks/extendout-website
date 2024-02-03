@@ -350,10 +350,10 @@ body {
 
 .gallery-item img {
   width: 100%;
-  height: auto;
-  display: block;
+  min-height: 300px;
   max-height: 300px;
 }
+
 
 .gallary-name-tag {
   width: 100%;
@@ -562,7 +562,7 @@ body {
   perspective: 1000px;
   justify-content: space-between;  /* Adjust spacing between cards */
   flex-wrap: wrap;
-  margin: 20px;
+  margin-bottom: 20px;
 }
 
 
@@ -635,7 +635,7 @@ body {
 
 .card {
   flex: 0 0 calc(33.33% - 20px); /* Three items in a row on larger screens */
-  margin: 10px; /* Adjust margin as needed */
+  margin-bottom: 20px; /* Adjust margin as needed */
   box-sizing: border-box;
   
 }

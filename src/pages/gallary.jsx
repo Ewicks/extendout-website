@@ -11,17 +11,13 @@ function Gallary() {
   return (
     <div>
       <div className="gallary-padding">
-        <div className="row">
-          <div className="col">
-            <h1 className="my-5 gallary-title">Gallary</h1>
-          </div>
-        </div>
         <div className="container-fluid">
           <div className="row">
             <div className="col">
+              <h1 className="my-5 gallary-title">Gallary</h1>
               <div className="gallery-container">
                 <div className="gallery-item">
-                  <img src={LightedKitchen} alt="" />
+                  <img className="img-fluid gallery-img" src={LightedKitchen} alt="" />
                   <p
                     className="gallary-name-tag d-flex 
                 justify-content-center 

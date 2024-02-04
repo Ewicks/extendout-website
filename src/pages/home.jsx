@@ -23,10 +23,11 @@ const Home = () => {
           <div className="col-md-6 col-sm-12 d-flex justify-content-center align-items-center flex-column">
             <h1 className="mt-5">Extensions</h1>
             <p className="p-5">
-              ExtendOut is a dedicated Loft Conversion and Extension company
-              with passion for good design and an eye for detail. We set the bar
-              high when it comes to the level of craftsmanship and service we
-              provide.
+            Home extensions offer homeowners a multitude of benefits, providing additional space
+            while enhancing the functionality and value of their property. Whether the aim is to add a
+            spare bedroom with an en-suite, expand the kitchen, or create a new living space, a well-
+            executed home extension had the potential to transform your current residence into the
+            ideal home you’ve always desired.
             </p>
           </div>
           <div className="col-md-6 col-sm-12">
@@ -56,10 +57,12 @@ const Home = () => {
           <div className="col-md-6 col-sm-12 d-flex justify-content-center align-items-center flex-column">
             <h1 className="mt-5">Loft Conversions</h1>
             <p className="p-5">
-              ExtendOut is a dedicated Loft Conversion and Extension company
-              with passion for good design and an eye for detail. We set the bar
-              high when it comes to the level of craftsmanship and service we
-              provide.
+            A loft conversion is the art of repurposing the often neglected loft space in to a functional
+            living area within your home. The intricate process involves a series of steps including
+            meticulous design thorough planning and executing the construction work. During the
+            design phase, careful consideration is given to the available space, determining how best to
+            maximize its potential. This might entail the incorporation of skylights, dormer windows and
+            the creation of a staircase to ensure the seamless access to the newly transformed space.
             </p>
           </div>
         </div>
@@ -69,10 +72,12 @@ const Home = () => {
           <div className="col-md-6 col-sm-12 d-flex justify-content-center align-items-center flex-column">
             <h1 className="mt-5">Renovation</h1>
             <p className="p-5">
-              ExtendOut is a dedicated Loft Conversion and Extension company
-              with passion for good design and an eye for detail. We set the bar
-              high when it comes to the level of craftsmanship and service we
-              provide.
+            Renovation involves extensive changes to a building’s structure or layout, such as adding
+            new rooms, demolishing walls, or completely revamping existing spaces. While these
+            projects are more costly and time-consuming than refurbishments, they often result in
+            dramatic transformations. Renovations offer the opportunity to significantly alter the look
+            and functionality of a property, making them a worthwhile investment for those seeking
+            substantial changes.
             </p>
           </div>
           <div className="col-md-6 col-sm-12">
@@ -102,10 +107,11 @@ const Home = () => {
           <div className="col-md-6 col-sm-12 d-flex justify-content-center align-items-center flex-column">
             <h1 className="mt-5">New Build</h1>
             <p className="p-5">
-              ExtendOut is a dedicated Loft Conversion and Extension company
-              with passion for good design and an eye for detail. We set the bar
-              high when it comes to the level of craftsmanship and service we
-              provide.
+            Embarking on a new building project allows you to shape a space that reflects your vision
+            and requirements. From selecting finishes, flooring and design elements, the journey of a
+            new build is filled with possibilities and anticipation. While it may involve a higher initial
+            investment, a new build offers a fresh start and a blank canvas for those seeking a new
+            home.
             </p>
           </div>
         </div>
@@ -116,10 +122,11 @@ const Home = () => {
           <div className="col-md-6 col-sm-12 d-flex justify-content-center align-items-center flex-column">
             <h1 className="mt-5">Remodelling</h1>
             <p className="p-5">
-              ExtendOut is a dedicated Loft Conversion and Extension company
-              with passion for good design and an eye for detail. We set the bar
-              high when it comes to the level of craftsmanship and service we
-              provide.
+            Remodelling refers to the process of modernising an already existing structure, focusing on
+            cosmetic enhancements rather than structural overhauls. This will include re decorating,
+            upgrading floors, replacing fixtures and fittings and introducing new lighting elements.
+            Opting for remodelling can be an deal solution if you want to rejuvenate your home’s
+            appearance without undertaking major changes to its layout or fundamental structure.
             </p>
           </div>
           <div className="col-md-6 col-sm-12">

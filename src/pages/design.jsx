@@ -1,6 +1,5 @@
 import React from "react";
 import Oven from "../assets/images/oven.jpeg";
-import Kitchen from "../assets/images/kitchen.png";
 import { Link } from "react-router-dom";
 
 function Design() {

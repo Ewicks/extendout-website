@@ -1,13 +1,14 @@
 import { useState } from 'react';
 import { NavLink } from 'react-router-dom';
-import Hamburger from '../assets/images/menu.png';
 import Logo from '../assets/images/logo.png';
 import '../../src/App.css';
 import { Link } from 'react-router-dom';
-
-
+import { IoClose } from "react-icons/io5";
+import { IoMenu } from "react-icons/io5";
+<IoMenu />
 const Navbar = () => {
   const [showNavbar, setShowNavbar] = useState(false);
+
 
   const handleShowNavbar = () => {
     setShowNavbar(!showNavbar);
@@ -15,7 +16,7 @@ const Navbar = () => {
 
   return (
     <nav className="navbar">
-      <div className="container-fluid mx-5">
+      <div className="container-fluid mx-5 navbar-m">
         <div className="logo">
           <Link to="/">
             <img className='logo-img' src={Logo} alt="" />
@@ -24,8 +25,7 @@ const Navbar = () => {
 
         </div>
         <div className="menu-icon" onClick={handleShowNavbar}>
-            {/* Use the <img> tag for images */}
-            <img className='menu-img' src={Hamburger} alt="Hamburger Icon" />
+          {showNavbar ? <IoClose /> : <IoMenu />}
         </div>
         <div className={`nav-elements  ${showNavbar && 'active'}`}>
           <ul>

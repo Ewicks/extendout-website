@@ -44,16 +44,11 @@ body {
   object-fit: cover;
 }
 
-.menu-img {
-  width: 60px;
-  height: 50px;
-  background-color: black;
-  background-repeat: no-repeat;
-}
 
 .menu-icon {
   display: none;
 }
+
 
 .nav-elements {
   z-index: 999;
@@ -105,8 +100,11 @@ body {
 
 @media (max-width: 920px) {
   .menu-icon {
-    display: block;
     cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
   }
 
   .nav-elements {
@@ -387,7 +385,7 @@ body {
     margin-right: 30px;
   }
   .logo-img {
-    width: 150px;
+    width: 200px;
   }
 }
 @media (max-width: 830px) {
@@ -395,7 +393,7 @@ body {
     margin-right: 20px;
   }
   .logo-img {
-    width: 120px;
+    width: 200px;
   }
 }
 
@@ -549,10 +547,6 @@ body {
     text-align: center;
   }
 
-  .logo-img {
-    width: 320px;
-  }
-
 }
 
 .flippable-card-container {
@@ -662,13 +656,13 @@ body {
   .contact form {
     width: 300px;
   }
+
+  .navbar-m {
+    margin: 0px !important;
+  }
 }
 
 @media (max-width: 800px) {
-
-  .logo-img {
-    width: 120px;
-  }
 
   .img-contain {
     object-fit: cover !important;

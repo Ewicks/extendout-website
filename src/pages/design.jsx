@@ -90,38 +90,6 @@ function Design() {
             </div>
           </div>
         </div>
-        <div className="container-fluid">
-          <div className="row gap-5 my-5 mobile-design">
-            <div className="col">
-              <img className="design-imgg" src={Kitchen} alt="" />
-            </div>
-            <div className="col">
-              <h2>Additional services:</h2>
-              <p>Building regulations and structural calculations</p>
-              <ul className="lh-lg">
-                <li>
-                  Building regulations specifications prepared by our chartered
-                  building engineer
-                </li>
-                <li>
-                  Structural designs and calculations produced by our chartered
-                  structural engineer
-                </li>
-                <li>
-                  Submit and manage a full plans building control application
-                </li>
-                <li>Support construction through to completion of build</li>
-              </ul>
-              <p>Build-over agreement with your local water company</p>
-              <ul className="lh-lg">
-                <li>Produce existing and proposed drain plans</li>
-                <li>Produce existing and proposed drain plans</li>
-                <li>Produce existing and proposed drain plans</li>
-                <li>Produce existing and proposed drain plans</li>
-              </ul>
-            </div>
-          </div>
-        </div>
       </div>
     </div>
   );

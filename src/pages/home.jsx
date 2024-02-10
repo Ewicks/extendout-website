@@ -127,6 +127,12 @@ const Home = () => {
             upgrading floors, replacing fixtures and fittings and introducing new lighting elements.
             Opting for remodelling can be an deal solution if you want to rejuvenate your home’s
             appearance without undertaking major changes to its layout or fundamental structure.
+            Extending your house made simple by ExtendOut Design &amp; Build
+
+            There are many ways to enhance your living space through home improvement. From
+            refurbishment, garage conversions, wrap around extensions and loft extensions each option
+            boasts distinct advantages, and unique benefits between them that can help you make an
+            informed decision about which one is right for you.
             </p>
           </div>
           <div className="col-md-6 col-sm-12">

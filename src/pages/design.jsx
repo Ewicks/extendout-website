@@ -22,29 +22,22 @@ function Design() {
             <div className="col col-center">
               <div className="design-container">
                 <p>
-                  While renovations can be time-consuming and complicated, your
-                  return on investment is sure to make it worth it. Not only
-                  will you experience the best your home has to offer, but you
-                  will also guarantee growth in property value when it’s time to
-                  move on. The key to a successful transformation is quality
-                  insight right from the start.
+                  While renovations can be intricate and time consuming, the
+                  return on investment is undoubtedly worthwhile. Not only will
+                  you enhance your living experience, but you will also increase
+                  the value of your property.
                 </p>
                 <br />
                 <p>
-                  As design and planning experts, we guide you toward
-                  cost-effective solutions as necessary while making sure you
-                  never have to compromise on what’s most important to you and
-                  your family. Whatever your plan and budget, we work
-                  effectively within these parameters and keep you abreast of
-                  developments every step of the way. The remodel you imagine is
-                  the one we create.
-                </p>
-                <br />
-                <p>
-                  Our offering includes drawing up the plans, handling
-                  applications for changes, conducting on-site measured surveys,
-                  accurate quotes for the remodelling, and successful execution
-                  of the plans.
+                  As design and planning experts, we provide guidance towards
+                  cost effective solutions whilst ensuring you never compromise
+                  on your priorities. Regardless of your vision and budget, we
+                  work diligently within the se parameters and keep you informed
+                  of progress every step of the way. The remodel you envisage is
+                  the one we will bring to life. Our services include drafting
+                  plans, managing changes on applications, conducting on-site
+                  surveys, providing accurate quotes, and executing plans
+                  effectively.
                 </p>
               </div>
             </div>
@@ -54,19 +47,39 @@ function Design() {
           <div className="row px-5 mobile-design">
             <div className="col col-center">
               <div className="bullet-points">
-                <h1>Our design & planning proposal includes:</h1>
+                <h1>
+                  Our comprehensive design &amp; planning proposal includes the
+                  following services:
+                </h1>
                 <ul className="lh-lg">
-                  <li>Full measured survey with our surveyor</li>
                   <li>
-                    Floor plans and elevation drawings of your existing property
+                    Conducting a thorough measured survey of your property with
+                    our experienced surveyor
                   </li>
                   <li>
-                    Online design session with our ARB registered Architect
+                    Providing detailed floor plans and elevation drawings of
+                    your current property layout
                   </li>
-                  <li>Proposed floor plans and elevations</li>
-                  <li>Up to 3 design revisions</li>
-                  <li>Supporting planning documents</li>
-                  <li>Planning application submission and management</li>
+                  <li>
+                    Conducting an online design session with our architect
+                    registered with the ARB
+                  </li>
+                  <li>
+                    Presenting proposed floor plans and elevations based on your
+                    preferences and requirements
+                  </li>
+                  <li>
+                    Allowing up to 3 design revisions to ensure the final plans
+                    align perfectly with your vision
+                  </li>
+                  <li>
+                    Preparing and providing all necessary supporting planning
+                    documents
+                  </li>
+                  <li>
+                    Handling the submission and management of your planning
+                    application process
+                  </li>
                 </ul>
               </div>
             </div>

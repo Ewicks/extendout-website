@@ -47,11 +47,6 @@ const Home = () => {
           <div className="col-md-6 col-sm-12">
             <div className="extension-example">
               <img className="kitchen-img" src={Loft} alt="" />
-              <div className="overlay-text">
-                <p>aasd</p>
-                <p> My super text.</p>
-                <p>asd asd asd asdads.</p>
-              </div>
             </div>
           </div>
           <div className="col-md-6 col-sm-12 d-flex justify-content-center align-items-center flex-column">
@@ -83,11 +78,6 @@ const Home = () => {
           <div className="col-md-6 col-sm-12">
             <div className="extension-example">
               <img className="kitchen-img" src={Renovation} alt="" />
-              <div className="overlay-text">
-                <p>aasd</p>
-                <p> My super text.</p>
-                <p>asd asd asd asdads.</p>
-              </div>
             </div>
           </div>
         </div>
@@ -97,11 +87,6 @@ const Home = () => {
           <div className="col-md-6 col-sm-12">
             <div className="extension-example">
               <img className="kitchen-img" src={Kitchentwo} alt="" />
-              <div className="overlay-text">
-                <p>no image</p>
-                <p> My super text.</p>
-                <p>asd asd asd asdads.</p>
-              </div>
             </div>
           </div>
           <div className="col-md-6 col-sm-12 d-flex justify-content-center align-items-center flex-column">
@@ -138,11 +123,6 @@ const Home = () => {
           <div className="col-md-6 col-sm-12">
             <div className="extension-example">
               <img className="kitchen-img" src={Remodelling} alt="" />
-              <div className="overlay-text">
-                <p>aasd</p>
-                <p> My super text.</p>
-                <p>asd asd asd asdads.</p>
-              </div>
             </div>
           </div>
         </div>

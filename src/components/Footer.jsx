@@ -2,7 +2,6 @@ import React from "react";
 import { FaPhone } from "react-icons/fa";
 import { MdEmail } from "react-icons/md";
 import { FaInstagram } from "react-icons/fa";
-import { FaFacebook } from "react-icons/fa";
 import Logo from "../assets/images/logo.png";
 import { Link } from "react-router-dom";
 
@@ -31,14 +30,13 @@ const Footer = () => {
                 </Link>
               </div>
               <p className="my-4 mobile-text">
-                © 2024 ShapeHouse | FAQ Privacy Policy
+                © 2024 ExtendOut Design & Build | FAQ Privacy Policy
               </p>
             </div>
           </div>
           <div className="col d-flex justify-content-center align-items-center flex-column">
             <div className="social-icons">
               <FaInstagram />
-              <FaFacebook />
             </div>
           </div>
         </div>

@@ -33,11 +33,6 @@ const Home = () => {
           <div className="col-md-6 col-sm-12">
             <div className="extension-example">
               <img className="kitchen-img" src={Extensions} alt="" />
-              <div className="overlay-text">
-                <p>aasd</p>
-                <p> My super text.</p>
-                <p>asd asd asd asdads.</p>
-              </div>
             </div>
           </div>
         </div>

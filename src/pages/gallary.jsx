@@ -14,7 +14,7 @@ function Gallary() {
         <div className="container-fluid">
           <div className="row">
             <div className="col">
-              <h1 className="my-5 gallary-title">Gallary</h1>
+              <h1 className="my-5 gallary-title">Gallery</h1>
               <div className="gallery-container">
                 <div className="gallery-item">
                   <img className="img-fluid gallery-img" src={LightedKitchen} alt="" />
@@ -23,7 +23,7 @@ function Gallary() {
                 justify-content-center 
                 align-items-center"
                   >
-                    test
+                    Putney
                   </p>
                 </div>
                 <div className="gallery-item">
@@ -33,7 +33,7 @@ function Gallary() {
                 justify-content-center 
                 align-items-center"
                   >
-                    test
+                    Elthan
                   </p>
                 </div>
                 <div className="gallery-item">
@@ -43,7 +43,7 @@ function Gallary() {
                 justify-content-center 
                 align-items-center"
                   >
-                    test
+                    Stains
                   </p>
                 </div>
                 <div className="gallery-item">
@@ -53,7 +53,7 @@ function Gallary() {
                 justify-content-center 
                 align-items-center"
                   >
-                    test
+                    Esher
                   </p>
                 </div>
                 <div className="gallery-item">
@@ -63,7 +63,7 @@ function Gallary() {
                 justify-content-center 
                 align-items-center"
                   >
-                    test
+                    Esher
                   </p>
                 </div>
                 <div className="gallery-item">
@@ -73,7 +73,7 @@ function Gallary() {
                 justify-content-center 
                 align-items-center"
                   >
-                    test
+                    Putney
                   </p>
                 </div>
                 <div className="gallery-item">
@@ -83,7 +83,7 @@ function Gallary() {
                 justify-content-center 
                 align-items-center"
                   >
-                    test
+                    Kingston
                   </p>
                 </div>
               </div>

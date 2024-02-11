@@ -1,6 +1,5 @@
 import React from "react";
 import Kitchentwo from "../assets/images/kitchentwo.png";
-import Homeimage from "../assets/images/homeimage.jpg";
 import Extensions from "../assets/images/extensions.jpeg";
 import Loft from "../assets/images/loft.jpeg";
 import Renovation from "../assets/images/renovations.jpeg";

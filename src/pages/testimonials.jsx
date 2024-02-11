@@ -1,5 +1,4 @@
 import React from 'react';
-import Kitchen from "../assets/images/kitchen.png";
 
 
 function Testimonials() {

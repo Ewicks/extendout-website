@@ -39,7 +39,7 @@ const Navbar = () => {
               <NavLink onClick={handleShowNavbar} to="/build">Build</NavLink>
             </li>
             <li>
-              <NavLink onClick={handleShowNavbar} to="/gallary">Gallary</NavLink>
+              <NavLink onClick={handleShowNavbar} to="/gallary">Gallery</NavLink>
             </li>
             <li>
               <NavLink onClick={handleShowNavbar} to="/team">Team</NavLink>

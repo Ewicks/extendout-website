@@ -115,7 +115,9 @@ const Home = () => {
             </p>
           </div>
           <div className="col-md-6 col-sm-12">
-              <img className="kitchen-img" src={Remodelling} alt="" />
+          <div className="extension-example">
+            <img className="kitchen-img" src={Remodelling} alt="" />
+          </div>
           </div>
         </div>
       </div>

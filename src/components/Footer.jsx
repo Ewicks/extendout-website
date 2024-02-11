@@ -4,13 +4,17 @@ import { MdEmail } from "react-icons/md";
 import { FaInstagram } from "react-icons/fa";
 import Logo from "../assets/images/logo.png";
 import { Link } from "react-router-dom";
+import image1 from '../assets/images/image001.png';
+import image2 from '../assets/images/image002.jpg';
+import image3 from '../assets/images/image003.jpg';
+import image4 from '../assets/images/image004.png';
 
 const Footer = () => {
   return (
     <div className="footer">
       <div className="container-fluid">
         <div className="row mobile-footer">
-          <div className="col d-flex justify-content-center align-items-center flex-column my-5">
+          <div className="col-4 d-flex justify-content-center align-items-center flex-column my-5">
             <div className="div">
               <div className="logo">
                 <img className="logo-img" src={Logo} alt="" />
@@ -34,9 +38,17 @@ const Footer = () => {
               </p>
             </div>
           </div>
-          <div className="col d-flex justify-content-center align-items-center flex-column">
+          <div className="col-4 d-flex justify-content-center align-items-center flex-wrap gap-3">
+            <img src={image1} className="footer-img" alt="" />
+            <img src={image2} className="footer-img" alt="" />
+            <img src={image3} className="footer-img" alt="" />
+            <img src={image4} className="footer-img" alt="" />
+          </div>
+          <div className="col-4 d-flex justify-content-center align-items-center flex-column">
             <div className="social-icons">
-              <FaInstagram />
+              <Link to='https://www.instagram.com/extendout/'>
+                <FaInstagram />
+              </Link>
             </div>
           </div>
         </div>

@@ -223,6 +223,20 @@ body {
   margin-top: auto;
 }
 
+.social-icons a {
+  color: #DD4B12;
+  font-size: 50px;
+}
+
+.footer-img {
+  height: 100px;
+  width: 100px;
+  object-fit: contain;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .social-icons {
   height: 20px;
   width: 20px;

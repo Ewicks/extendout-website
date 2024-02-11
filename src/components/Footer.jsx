@@ -14,7 +14,7 @@ const Footer = () => {
     <div className="footer">
       <div className="container-fluid">
         <div className="row mobile-footer">
-          <div className="col-4 d-flex justify-content-center align-items-center flex-column my-5">
+          <div className="col-md-4 col-sm-12  d-flex justify-content-center align-items-center flex-column my-5">
             <div className="div">
               <div className="logo">
                 <img className="logo-img" src={Logo} alt="" />
@@ -38,13 +38,13 @@ const Footer = () => {
               </p>
             </div>
           </div>
-          <div className="col-4 d-flex justify-content-center align-items-center flex-wrap gap-3">
+          <div className="col-md-4 px-5 col-sm-12 d-flex justify-content-center align-items-center flex-wrap gap-3">
             <img src={image1} className="footer-img" alt="" />
             <img src={image2} className="footer-img" alt="" />
             <img src={image3} className="footer-img" alt="" />
             <img src={image4} className="footer-img" alt="" />
           </div>
-          <div className="col-4 d-flex justify-content-center align-items-center flex-column">
+          <div className="col-md-4 col-sm-12 d-flex justify-content-center align-items-center flex-column">
             <div className="social-icons">
               <Link to='https://www.instagram.com/extendout/'>
                 <FaInstagram />

@@ -100,7 +100,7 @@ const Home = () => {
         <div className="row">
           <div className="col-md-6 col-sm-12 d-flex justify-content-center align-items-center flex-column">
             <h1 className="mt-5">Remodelling</h1>
-            <p className="p-5">
+            <p className="p-5 m-0">
             Remodelling refers to the process of modernising an already existing structure, focusing on
             cosmetic enhancements rather than structural overhauls. This will include re decorating,
             upgrading floors, replacing fixtures and fittings and introducing new lighting elements.
@@ -115,14 +115,12 @@ const Home = () => {
             </p>
           </div>
           <div className="col-md-6 col-sm-12">
-            <div className="extension-example">
               <img className="kitchen-img" src={Remodelling} alt="" />
-            </div>
           </div>
         </div>
       </div>
       <div className="container-fluid">
-        <div className="row mt-5">
+        <div className="row">
           <div className="col contact-banner d-flex justify-content-center align-items-center">
             <Link to='/contact' className="btn banner-btn">
             Contact Us

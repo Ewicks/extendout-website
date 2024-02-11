@@ -46,7 +46,7 @@ const Footer = () => {
           </div>
           <div className="col-md-4 col-sm-12 d-flex justify-content-center align-items-center flex-column">
             <div className="social-icons">
-              <Link to='https://www.instagram.com/extendout/'>
+              <Link to='https://www.instagram.com/extendout/' target="_blank">
                 <FaInstagram />
               </Link>
             </div>

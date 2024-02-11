@@ -11,7 +11,7 @@ import { Link } from "react-router-dom";
 const Home = () => {
   return (
     <div className="home-page">
-      <img className="home-img" src={Renovation} alt="" />
+      <img className="home-img" loading="lazy" src={Renovation} alt="" />
       <div className="center">
         <Link to="/contact" className="btn orange-btn">
           Contact Us

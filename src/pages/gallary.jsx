@@ -33,7 +33,7 @@ function Gallary() {
                 justify-content-center 
                 align-items-center"
                   >
-                    Elthan
+                    Eltham
                   </p>
                 </div>
                 <div className="gallery-item">
@@ -43,7 +43,7 @@ function Gallary() {
                 justify-content-center 
                 align-items-center"
                   >
-                    Stains
+                    Staines
                   </p>
                 </div>
                 <div className="gallery-item">

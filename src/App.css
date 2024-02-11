@@ -672,6 +672,11 @@ body {
     top: 65%;
     left: 70%;
   }
+
+  .sm-p-build {
+    margin-top: 50px;
+  }
+
 }
 
 

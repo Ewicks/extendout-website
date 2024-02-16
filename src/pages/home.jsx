@@ -123,9 +123,19 @@ const Home = () => {
       </div>
       <div className="container-fluid">
         <div className="row">
-          <div className="col contact-banner d-flex justify-content-center align-items-center">
+          <div className="col-md-6 col-sm-12 p-5 contact-banner d-flex justify-content-center align-items-center">
+            <div>
+            <h3>We Offer 100 Percent Guarantee With Our Services!</h3>
+            <p>
+            Our objective is to provide quality products, trusting partnerships, and the best services possible. We are committed to providing dependable and trustworthy service.
+            </p>
+
+            </div>
+            
+          </div>
+          <div className="col-md-6 col-sm-12 contact-banner d-flex justify-content-center align-items-center">
             <Link to='/contact' className="btn banner-btn">
-            Contact Us
+            Get Free Quote
             </Link>
           </div>
         </div>

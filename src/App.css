@@ -720,9 +720,8 @@ body {
 }
 
 .contact-banner {
-  height: 100px;
-  width: 100%;
   background-color: #DD4B12;
+  color: white;
 }
 
 .banner-btn {

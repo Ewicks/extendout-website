@@ -21,7 +21,7 @@ function Build() {
       </div>
       <div className="container-fluid">
         <div className="row my-5">
-          <div className="col-md-6 px-5 col-sm-12">
+          <div className="col-12 px-5">
             <div className="design-container sm-p-build">
               <p>
                 If you already have your existing and proposed drawings for your

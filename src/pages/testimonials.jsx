@@ -14,7 +14,6 @@ function Testimonials() {
               alt=""
             />
             <p className="gallery-item-text">Testimonials</p>
-            <p className="gallery-item-text-2">See what our clients have to say</p>
           </div>
         </div>
       </div>

@@ -1,14 +1,26 @@
 import React from 'react';
-
+import Kitchen from '../assets/images/extensions.jpeg'
 
 function Testimonials() {
   return (
     <div>
-      <div className="gallary-padding">
+      <div className="container-fluid mb-5">
         <div className="row">
-          <div className="col">
-            <h1 className="my-5 gallary-title">Testimonials</h1>
+          <div className="col-12 position-relative p-0">
+            <div className="overlay-gallery"></div>
+            <img
+              className="img-fluid gallery-img"
+              src={Kitchen}
+              alt=""
+            />
+            <p className="gallery-item-text">Testimonials</p>
+            <p className="gallery-item-text-2">See what our clients have to say</p>
           </div>
+        </div>
+      </div>
+      <div className="gallary-padding">
+        
+        <div className="row">
         </div>
         <div className="row">
           <div className="col">

@@ -2,6 +2,7 @@ import React from "react";
 import emailjs from "emailjs-com";
 import { Form, Input, TextArea, Button } from "semantic-ui-react";
 import Swal from "sweetalert2";
+import Kitchen from '../assets/images/homeimage.jpg'
 
 const SERVICE_ID = "service_vhd24nq";
 const TEMPLATE_ID = "template_od1btv7";
@@ -31,7 +32,19 @@ const App = () => {
   };
 
   return (
+    
     <div className="contact">
+      <div className="row">
+          <div className="col-12 position-relative p-0">
+            <div className="overlay-gallery"></div>
+            <img
+              className="img-fluid gallery-img"
+              src={Kitchen}
+              alt=""
+            />
+            <p className="gallery-item-text">Contact Us</p>
+          </div>
+        </div>
       <div className="row">
         <div className="col my-5 d-flex justify-content-start align-items-center flex-column">
 

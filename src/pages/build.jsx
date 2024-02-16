@@ -5,18 +5,22 @@ import { Link } from "react-router-dom";
 function Build() {
   return (
     <div>
-      <div className="container-fluid">
+      <div className="container-fluid mb-5">
         <div className="row">
-          <div className="col-12">
-            <h1 className="my-4 ps-4">Build</h1>
+          <div className="col-12 position-relative p-0">
+            <div className="overlay-gallery"></div>
+            <img
+              className="img-fluid gallery-img"
+              src={KitchenFour}
+              alt=""
+            />
+            <p className="gallery-item-text">Build</p>
+            <p className="gallery-item-text-2">See what we can build</p>
           </div>
         </div>
       </div>
       <div className="container-fluid">
         <div className="row my-5">
-          <div className="col-md-6 px-5 col-sm-12">
-            <img className="design-img" src={KitchenFour} alt="" />
-          </div>
           <div className="col-md-6 px-5 col-sm-12">
             <div className="design-container sm-p-build">
               <p>

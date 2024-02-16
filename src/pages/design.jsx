@@ -5,19 +5,24 @@ import { Link } from "react-router-dom";
 function Design() {
   return (
     <div>
-      <div className="extra-padding">
-        <div className="container-fluid">
-          <div className="row">
-            <div className="col">
-              <h1 className="my-4 design-title">Design & Planning</h1>
-            </div>
+      <div className="container-fluid">
+        <div className="row mb-5">
+          <div className="col-12 position-relative p-0">
+            <div className="overlay-gallery"></div>
+            <img
+              className="img-fluid gallery-img"
+              src={Oven}
+              alt=""
+            />
+            <p className="gallery-item-text">Design & Planning</p>
           </div>
         </div>
+      </div>
+      <div className="extra-padding">
+        
         <div className="container-fluid">
           <div className="row gap-5 mobile-design mb-5">
-            <div className="col">
-              <img className="design-img img-contain " src={Oven} alt="" />
-            </div>
+           
             <div className="col col-center">
               <div className="design-container">
                 <p>

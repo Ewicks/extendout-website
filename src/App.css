@@ -762,3 +762,105 @@ body {
 .img-contain {
   object-fit: contain !important;
 }
+
+.gallery-img {
+  height: 50vh;
+  width: 100%;
+  object-fit: cover;
+  background: rgba(19,15,64,0.8);
+  /* opacity: .5; */
+}
+
+
+.overlay-gallery {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.gallery-item {
+  position: relative;
+  margin: 10px;
+}
+
+.gallery-item-text {
+  position: absolute;
+  bottom: 150px;
+  font-size: 40px;
+  font-weight: 500;
+  left: 50%;
+  transform: translateX(-50%);
+  text-align: center;
+  color: white;
+  padding: 5px 10px;
+}
+.gallery-item-text-2 {
+  position: absolute;
+  white-space: nowrap;
+  bottom: 80px;
+  font-size: 30px;
+  font-weight: 400;
+  left: 50%;
+  transform: translateX(-50%);
+  text-align: center;
+  color: white;
+  padding: 5px 10px;
+}
+
+.gallery-item:hover {
+  transform: scale(1.05);
+}
+
+.container.gallery-container {
+  background-color: #fff;
+  color: #35373a;
+  min-height: 100vh;
+  padding: 30px 50px;
+}
+
+.gallery-container h1 {
+  text-align: center;
+  margin-top: 50px;
+  font-family: 'Droid Sans', sans-serif;
+  font-weight: bold;
+}
+
+.gallery-container p.page-description {
+  text-align: center;
+  margin: 25px auto;
+  font-size: 18px;
+  color: #999;
+}
+
+.tz-gallery {
+  padding: 40px;
+}
+
+/* Override bootstrap column paddings */
+.tz-gallery .row > div {
+  padding: 2px;
+}
+
+.tz-gallery .lightbox img {
+  width: 100%;
+  border-radius: 0;
+  position: relative;
+  height: 100%;
+  object-fit: cover;
+  min-height: 300px; /* Set a fixed height for all images */
+  max-height: 300px;
+}
+
+
+.baguetteBox-button {
+  background-color: transparent !important;
+}
+
+@media(max-width: 768px) {
+  body {
+      padding: 0;
+  }
+}

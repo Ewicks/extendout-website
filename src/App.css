@@ -810,9 +810,7 @@ body {
   padding: 5px 10px;
 }
 
-.gallery-item:hover {
-  transform: scale(1.05);
-}
+
 
 .container.gallery-container {
   background-color: #fff;
@@ -841,7 +839,10 @@ body {
 
 /* Override bootstrap column paddings */
 .tz-gallery .row > div {
-  padding: 2px;
+  padding: 9px;
+}
+.tz-gallery .row > div:hover {
+  transform: scale(1.05);
 }
 
 .tz-gallery .lightbox img {

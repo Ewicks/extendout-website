@@ -5,6 +5,11 @@ import IndoorKitchen from "../assets/images/indoor-kitchen.jpeg";
 import OpenRoom from "../assets/images/open-room.jpeg";
 import Bath from "../assets/images/bath.jpeg";
 import KitchenThree from "../assets/images/kitchen-three.jpeg";
+import Gallery1 from '../assets/images/gallery1.jpeg';
+import Gallery2 from '../assets/images/gallery2.jpeg';
+import Gallery3 from '../assets/images/gallery3.jpeg';
+import Gallery4 from '../assets/images/gallery4.jpeg';
+import Gallery5 from '../assets/images/gallery5.jpeg';
 
 function Gallary() {
   return (
@@ -25,9 +30,6 @@ function Gallary() {
             </div>
           </div>
         </div>
-    
-              
-                 
         <div class="container-fluid gallery-container m-0">
           <div class="tz-gallery">
             <div class="row">
@@ -63,27 +65,27 @@ function Gallary() {
               </div>
               <div class="col-sm-12 col-md-4">
                 <div class="lightbox">
-                  <img src={LightedKitchen} alt="Bridge" />
+                  <img src={Gallery1} alt="Bridge" />
                 </div>
               </div>
               <div class="col-sm-6 col-md-4">
                 <div class="lightbox">
-                  <img src={OpenKitchen} alt="Park" />
+                  <img src={Gallery2} alt="Park" />
                 </div>
               </div>
               <div class="col-sm-6 col-md-4">
                 <div class="lightbox">
-                  <img src={IndoorKitchen} alt="Tunnel" />
+                  <img src={Gallery3} alt="Tunnel" />
                 </div>
               </div>
               <div class="col-sm-12 col-md-8">
                 <div class="lightbox">
-                  <img src={KitchenThree} alt="Traffic" />
+                  <img src={Gallery4} alt="Traffic" />
                 </div>
               </div>
               <div class="col-sm-6 col-md-4">
                 <div class="lightbox">
-                  <img src={OpenRoom} alt="Coast" />
+                  <img src={Gallery5} alt="Coast" />
                 </div>
               </div>
               <div class="col-sm-6 col-md-4">

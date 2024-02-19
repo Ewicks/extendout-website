@@ -4,7 +4,6 @@ import LightedKitchen from "../assets/images/lighted-kitchen.jpeg";
 import IndoorKitchen from "../assets/images/indoor-kitchen.jpeg";
 import OpenRoom from "../assets/images/open-room.jpeg";
 import Bath from "../assets/images/bath.jpeg";
-import IndoorKitchenTwo from "../assets/images/indoor-kitchen-two.jpeg";
 import KitchenThree from "../assets/images/kitchen-three.jpeg";
 
 function Gallary() {

@@ -1,6 +1,6 @@
 import React from "react";
-import KitchenFour from "../assets/images/kitchen-four.jpeg";
 import { Link } from "react-router-dom";
+import BuildImg from '../assets/images/build.jpeg';
 
 function Build() {
   return (
@@ -11,11 +11,11 @@ function Build() {
             <div className="overlay-gallery"></div>
             <img
               className="img-fluid gallery-img"
-              src={KitchenFour}
+              src={BuildImg}
               alt=""
+              loading="lazy"
             />
             <p className="gallery-item-text">Build</p>
-            <p className="gallery-item-text-2">See what we can build</p>
           </div>
         </div>
       </div>

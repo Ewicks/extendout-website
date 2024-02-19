@@ -19,6 +19,7 @@ function Gallary() {
                 className="img-fluid gallery-img"
                 src={Bath}
                 alt=""
+                loading="lazy"
               />
               <p className="gallery-item-text">Gallery</p>
               <p className="gallery-item-text-2">View all our extensions</p>
@@ -108,49 +109,42 @@ function Gallary() {
             </div>
           </div>
         </div>
-        <div class="container gallery-container">
-
-    
-    <div class="tz-gallery">
-
-        <div class="row">
-
-            <div class="col-sm-12 col-md-4">
-                <div class="lightbox" >
-                    <img src={LightedKitchen} alt="Bridge" />
-                </div>
-            </div>
-            <div class="col-sm-6 col-md-4">
-                <div class="lightbox" >
-                    <img src={OpenKitchen} alt="Park" />
-                </div>
-            </div>
-            <div class="col-sm-6 col-md-4">
-                <div class="lightbox" >
-                    <img src={IndoorKitchen} alt="Tunnel" />
-                </div>
-            </div>
-            <div class="col-sm-12 col-md-8">
+        <div class="container-fluid gallery-container">
+          <div class="tz-gallery">
+            <div class="row">
+              <div class="col-sm-12 col-md-4">
                 <div class="lightbox">
-                    <img src={KitchenThree} alt="Traffic" />
+                  <img src={LightedKitchen} alt="Bridge" />
                 </div>
-            </div>
-            <div class="col-sm-6 col-md-4">
+              </div>
+              <div class="col-sm-6 col-md-4">
                 <div class="lightbox">
-                    <img src={OpenRoom} alt="Coast" />
+                  <img src={OpenKitchen} alt="Park" />
                 </div>
-            </div> 
-            <div class="col-sm-6 col-md-4">
+              </div>
+              <div class="col-sm-6 col-md-4">
                 <div class="lightbox">
-                    <img src={Bath} alt="Rails" />
+                  <img src={IndoorKitchen} alt="Tunnel" />
                 </div>
+              </div>
+              <div class="col-sm-12 col-md-8">
+                <div class="lightbox">
+                  <img src={KitchenThree} alt="Traffic" />
+                </div>
+              </div>
+              <div class="col-sm-6 col-md-4">
+                <div class="lightbox">
+                  <img src={OpenRoom} alt="Coast" />
+                </div>
+              </div>
+              <div class="col-sm-6 col-md-4">
+                <div class="lightbox">
+                  <img src={Bath} alt="Rails" />
+                </div>
+              </div>
             </div>
-
+          </div>
         </div>
-
-    </div>
-
-</div>
       </div>
     </div>
   );

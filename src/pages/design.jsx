@@ -1,6 +1,6 @@
 import React from "react";
-import Oven from "../assets/images/oven.jpeg";
 import { Link } from "react-router-dom";
+import DesignImg from '../assets/images/desing-img.jpeg'
 
 function Design() {
   return (
@@ -11,7 +11,7 @@ function Design() {
             <div className="overlay-gallery"></div>
             <img
               className="img-fluid gallery-img"
-              src={Oven}
+              src={DesignImg}
               alt=""
             />
             <p className="gallery-item-text">Design & Planning</p>

@@ -30,7 +30,7 @@ const Footer = () => {
               <div className="email">
                 <MdEmail />
                 <Link to="/contact" className="email-address">
-                  graham@extendout.co.uk
+                  theteam@extendout.co.uk
                 </Link>
               </div>
               <p className="my-4 mobile-text">

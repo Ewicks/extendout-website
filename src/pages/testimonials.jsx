@@ -63,6 +63,31 @@ function Testimonials() {
                 <span className='fw-bold'><br />Stewart - Molesey</span>
                 </p>
               </div>
+              <div className="testimonial-item">
+                <p className='fst-italic'>
+                I am thrilled to provide a glowing testimonial of the exceptional work of ExtendOut Design & Build and their team. From inception to completion, the journey of extending our home has been nothing short of extraordinary. Their craftsmanship, attention to detail, and dedication to excellence truly exceeded out expectations
+                
+                <span className='fw-bold'><br />Elaine - Molesey</span>
+                </p>
+              </div>
+              <div className="testimonial-item">
+                <p className='fst-italic'>
+                Thanks to ExtendOut Design & Build and their team, our home has been transformed into a space that not only meets but surpasses our expectations. We wholeheartedly recommend their services to anyone seeking top- notch craftsmanship, reliability and integrity in their building project. They have not just built an extension they have made our family home. 
+
+                
+                <span className='fw-bold'><br />
+                David - Byfleet
+                </span>
+                </p>
+              </div>
+              <div className="testimonial-item">
+                <p className='fst-italic'>
+                ‘We are incredibly grateful to ExtendOut and their team for their hard work, professionalism and attention to detail. Thanks for their expertise and commitment, we now have a beautiful, functional and we thought out extension that has truly transformed our home. Without hesitation, we would recommend ExtendOut and the guys to anyone looking for a builder’
+                <span className='fw-bold'><br />
+                Emma - Lewisham
+                </span>
+                </p>
+              </div>
             </div>
           </div>
         </div>

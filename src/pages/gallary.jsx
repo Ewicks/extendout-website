@@ -26,14 +26,14 @@ function Gallary() {
                 loading="lazy"
               />
               <p className="gallery-item-text">Gallery</p>
-              <p className="gallery-item-text-2">View all our extensions</p>
+              <p className="gallery-item-text-2">Some of our projects</p>
             </div>
           </div>
         </div>
         <div class="container-fluid gallery-container m-0">
           <div class="tz-gallery">
             <div class="row">
-              <div class="col-sm-12 col-md-4">
+              <div class="col-sm-12 col-md-8">
                 <div class="lightbox">
                   <img src={LightedKitchen} alt="Bridge" />
                 </div>
@@ -78,6 +78,11 @@ function Gallary() {
                   <img src={Gallery3} alt="Tunnel" />
                 </div>
               </div>
+              <div class="col-sm-6 col-md-4">
+                <div class="lightbox">
+                  <img src={Gallery3} alt="Tunnel" />
+                </div>
+              </div>
               <div class="col-sm-12 col-md-8">
                 <div class="lightbox">
                   <img src={Gallery4} alt="Traffic" />
@@ -86,6 +91,11 @@ function Gallary() {
               <div class="col-sm-6 col-md-4">
                 <div class="lightbox">
                   <img src={Gallery5} alt="Coast" />
+                </div>
+              </div>
+              <div class="col-sm-6 col-md-4">
+                <div class="lightbox">
+                  <img src={Bath} alt="Rails" />
                 </div>
               </div>
               <div class="col-sm-6 col-md-4">

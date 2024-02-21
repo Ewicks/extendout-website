@@ -135,7 +135,7 @@ const Home = () => {
           </div>
           <div className="col-md-6 col-sm-12 contact-banner d-flex justify-content-center align-items-center">
             <Link to='/contact' className="btn banner-btn">
-            Get Free Quote
+            Free Consultation
             </Link>
           </div>
         </div>

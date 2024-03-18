@@ -1,5 +1,4 @@
 import React from "react";
-import { Link } from "react-router-dom";
 import DesignHome from '../assets/images/design-landing.jpeg';
 
 function Design() {
@@ -48,7 +47,7 @@ function Design() {
           </div>
         </div>
         <div className="container-fluid">
-          <div className="row px-5 mobile-design">
+          <div className="row mb-5 mobile-design">
             <div className="col col-center">
               <div className="bullet-points">
                 <h1>
@@ -86,11 +85,6 @@ function Design() {
                   </li>
                 </ul>
               </div>
-            </div>
-            <div className="col d-flex justify-content-start align-items-center content-center">
-              <Link className="contact-btn my-5" to="/contact">
-                Contact Us
-              </Link>
             </div>
           </div>
         </div>

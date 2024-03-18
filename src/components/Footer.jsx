@@ -37,7 +37,7 @@ const Footer = () => {
               
             </div>
           </div>
-          <div className="col-md-4 col-sm-12 d-flex justify-content-center align-items-center flex-column">
+          <div className="col-md-4 px-3 col-sm-12 d-flex justify-content-center align-items-center flex-column">
             <div className="social-icons">
               <Link to='https://www.instagram.com/extendout/' target="_blank">
                 <FaInstagram />
@@ -47,11 +47,21 @@ const Footer = () => {
                 © 2024 ExtendOut Design & Build | FAQ Privacy Policy
             </p>
           </div>
-          <div className="col-md-4 mb-5 px-5 col-sm-12 d-flex justify-content-center align-items-center flex-wrap gap-3">
-            <img src={image2} className="footer-img" alt="" />
-            <img src={image3} className="footer-img" alt="" />
-            <img src={image5} className="footer-img" alt="" />
-            <img src={image4} className="footer-img" alt="" />
+          <div className="col-md-4 mb-2 px-5 col-sm-12 d-flex justify-content-center align-items-center flex-wrap gap-3">
+            <div className="row">
+              <div className="col-6 mb-3 d-flex justify-content-center align-items-center">
+                <img src={image2} className="footer-img" alt="" />
+              </div>
+              <div className="col-6 mb-3 d-flex justify-content-center align-items-center">
+                <img src={image3} className="footer-img" alt="" />
+              </div>
+              <div className="col-6 mb-3 d-flex justify-content-center align-items-center">
+                <img src={image5} className="footer-img" alt="" />
+              </div>
+              <div className="col-6 mb-3 d-flex justify-content-center align-items-center">
+                <img src={image4} className="footer-img" alt="" />
+              </div>
+            </div>
           </div>
           
         </div>

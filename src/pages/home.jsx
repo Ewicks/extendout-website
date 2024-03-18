@@ -4,6 +4,8 @@ import Extensions from "../assets/images/extensions.jpeg";
 import Loft from "../assets/images/loft.jpeg";
 import Renovation from "../assets/images/renovations.jpeg";
 import Remodelling from "../assets/images/remodelling.jpeg";
+import KitchenThree from "../assets/images/kitchen-three.jpeg";
+
 
 import "../../src/App.css";
 import { Link } from "react-router-dom";
@@ -71,7 +73,7 @@ const Home = () => {
           </div>
           <div className="col-md-6 col-sm-12">
             <div className="extension-example">
-              <img className="kitchen-img" src={Renovation} alt="" />
+              <img className="kitchen-img" src={KitchenThree} alt="" />
             </div>
           </div>
         </div>
@@ -125,7 +127,6 @@ const Home = () => {
         <div className="row">
           <div className="col-md-6 col-sm-12 p-5 contact-banner d-flex justify-content-center align-items-center">
             <div>
-            <h3>We Offer 100 Percent Guarantee With Our Services!</h3>
             <p>
             Our objective is to provide quality products, trusting partnerships, and the best services possible. We are committed to providing dependable and trustworthy service.
             </p>

@@ -10,6 +10,8 @@ import Gallery2 from '../assets/images/gallery2.jpeg';
 import Gallery3 from '../assets/images/gallery3.jpeg';
 import Gallery4 from '../assets/images/gallery4.jpeg';
 import Gallery5 from '../assets/images/gallery5.jpeg';
+import Renovation from "../assets/images/renovations.jpeg";
+
 
 function Gallary() {
   return (
@@ -80,7 +82,7 @@ function Gallary() {
               </div>
               <div class="col-sm-6 col-md-4">
                 <div class="lightbox">
-                  <img src={Gallery3} alt="Tunnel" />
+                  <img src={Renovation} alt="Tunnel" />
                 </div>
               </div>
               <div class="col-sm-12 col-md-8">
@@ -91,21 +93,6 @@ function Gallary() {
               <div class="col-sm-6 col-md-4">
                 <div class="lightbox">
                   <img src={Gallery5} alt="Coast" />
-                </div>
-              </div>
-              <div class="col-sm-6 col-md-4">
-                <div class="lightbox">
-                  <img src={Bath} alt="Rails" />
-                </div>
-              </div>
-              <div class="col-sm-6 col-md-4">
-                <div class="lightbox">
-                  <img src={Bath} alt="Rails" />
-                </div>
-              </div>
-              <div class="col-sm-6 col-md-4">
-                <div class="lightbox">
-                  <img src={Bath} alt="Rails" />
                 </div>
               </div>
             </div>

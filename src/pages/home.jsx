@@ -3,8 +3,8 @@ import Kitchentwo from "../assets/images/kitchentwo.png";
 import Extensions from "../assets/images/extensions.jpeg";
 import Loft from "../assets/images/loft.jpeg";
 import Renovation from "../assets/images/renovations.jpeg";
+import Renovation2 from "../assets/images/renovation2.jpeg";
 import Remodelling from "../assets/images/remodelling.jpeg";
-import KitchenThree from "../assets/images/kitchen-three.jpeg";
 
 
 import "../../src/App.css";
@@ -26,8 +26,7 @@ const Home = () => {
             <p className="p-5">
             Home extensions offer homeowners a multitude of benefits, providing additional space
             while enhancing the functionality and value of their property. Whether the aim is to add a
-            spare bedroom with an en-suite, expand the kitchen, or create a new living space, a well-
-            executed home extension had the potential to transform your current residence into the
+            spare bedroom with an en-suite, expand the kitchen, or create a new living space, a well-executed home extension has the potential to transform your current residence into the
             ideal home you’ve always desired.
             </p>
           </div>
@@ -49,7 +48,7 @@ const Home = () => {
             <h1 className="mt-5">Loft Conversions</h1>
             <p className="p-5">
             A loft conversion is the art of repurposing the often neglected loft space in to a functional
-            living area within your home. The intricate process involves a series of steps including
+            living area within your home. This process involves a series of steps including
             meticulous design thorough planning and executing the construction work. During the
             design phase, careful consideration is given to the available space, determining how best to
             maximize its potential. This might entail the incorporation of skylights, dormer windows and
@@ -73,7 +72,7 @@ const Home = () => {
           </div>
           <div className="col-md-6 col-sm-12">
             <div className="extension-example">
-              <img className="kitchen-img" src={KitchenThree} alt="" />
+              <img className="kitchen-img" src={Renovation2} alt="" />
             </div>
           </div>
         </div>
@@ -106,11 +105,11 @@ const Home = () => {
             Remodelling refers to the process of modernising an already existing structure, focusing on
             cosmetic enhancements rather than structural overhauls. This will include re decorating,
             upgrading floors, replacing fixtures and fittings and introducing new lighting elements.
-            Opting for remodelling can be an deal solution if you want to rejuvenate your home’s
+            Opting for remodelling can be an ideal solution if you want to rejuvenate your home’s
             appearance without undertaking major changes to its layout or fundamental structure.
-            Extending your house made simple by ExtendOut Design &amp; Build
+            Extending your house can be made simple by ExtendOut Design &amp; Build. <br /> <br />
 
-            There are many ways to enhance your living space through home improvement. From
+            There are many ways to enhance your living space through home improvement from
             refurbishment, garage conversions, wrap around extensions and loft extensions each option
             boasts distinct advantages, and unique benefits between them that can help you make an
             informed decision about which one is right for you.

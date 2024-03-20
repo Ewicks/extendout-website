@@ -11,6 +11,19 @@ import Gallery3 from '../assets/images/gallery3.jpeg';
 import Gallery4 from '../assets/images/gallery4.jpeg';
 import Gallery5 from '../assets/images/gallery5.jpeg';
 import Renovation from "../assets/images/renovations.jpeg";
+import Gal1 from "../assets/images/gal1.jpeg";
+import Gal2 from "../assets/images/gal2.jpeg";
+import Gal3 from "../assets/images/gal3.jpeg";
+import Gal4 from "../assets/images/gal4.jpeg";
+import Gal6 from "../assets/images/gal6.jpeg";
+import Gal7 from "../assets/images/gal7.jpeg";
+import Gal8 from "../assets/images/gal8.jpeg";
+import Gal9 from "../assets/images/gal9.jpeg";
+import Gal10 from "../assets/images/gal10.jpeg";
+import Gal11 from "../assets/images/gal11.jpeg";
+import Gal12 from "../assets/images/gal12.jpeg";
+import Gal13 from "../assets/images/gal13.jpeg";
+
 
 
 function Gallary() {
@@ -93,6 +106,66 @@ function Gallary() {
               <div class="col-sm-6 col-md-4">
                 <div class="lightbox">
                   <img src={Gallery5} alt="Coast" />
+                </div>
+              </div>
+              <div class="col-sm-12 col-md-8">
+                <div class="lightbox">
+                  <img src={Gal1} alt="Bridge" />
+                </div>
+              </div>
+              <div class="col-sm-6 col-md-4">
+                <div class="lightbox">
+                  <img src={Gal2} alt="Park" />
+                </div>
+              </div>
+              <div class="col-sm-6 col-md-4">
+                <div class="lightbox">
+                  <img src={Gal3} alt="Tunnel" />
+                </div>
+              </div>
+              <div class="col-sm-12 col-md-8">
+                <div class="lightbox">
+                  <img src={Gal4} alt="Traffic" />
+                </div>
+              </div>
+              <div class="col-sm-6 col-md-4">
+                <div class="lightbox">
+                  <img src={Gal6} alt="Coast" />
+                </div>
+              </div>
+              <div class="col-sm-6 col-md-4">
+                <div class="lightbox">
+                  <img src={Gal7} alt="Rails" />
+                </div>
+              </div>
+              <div class="col-sm-12 col-md-4">
+                <div class="lightbox">
+                  <img src={Gal8} alt="Bridge" />
+                </div>
+              </div>
+              <div class="col-sm-6 col-md-4">
+                <div class="lightbox">
+                  <img src={Gal9} alt="Park" />
+                </div>
+              </div>
+              <div class="col-sm-6 col-md-4">
+                <div class="lightbox">
+                  <img src={Gal10} alt="Tunnel" />
+                </div>
+              </div>
+              <div class="col-sm-6 col-md-4">
+                <div class="lightbox">
+                  <img src={Gal11} alt="Tunnel" />
+                </div>
+              </div>
+              <div class="col-sm-12 col-md-8">
+                <div class="lightbox">
+                  <img src={Gal12} alt="Traffic" />
+                </div>
+              </div>
+              <div class="col-sm-6 col-md-4">
+                <div class="lightbox">
+                  <img src={Gal13} alt="Coast" />
                 </div>
               </div>
             </div>

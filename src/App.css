@@ -837,7 +837,7 @@ body {
   padding: 9px;
 }
 .tz-gallery .row > div:hover {
-  transform: scale(1.05);
+  transform: scale(1.03);
 }
 
 .tz-gallery .lightbox img {

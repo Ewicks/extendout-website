@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import { NavLink } from 'react-router-dom';
-import Logo from '../assets/images/logo.png';
+import NewLogo from '../assets/images/newlogo.png';
 import '../../src/App.css';
 import { Link } from 'react-router-dom';
 import { IoClose } from "react-icons/io5";
@@ -19,7 +19,7 @@ const Navbar = () => {
       <div className="container-fluid mx-5 navbar-m">
         <div className="logo">
           <Link to="/">
-            <img className='logo-img' src={Logo} alt="" />
+            <img className='logo-img' src={NewLogo} alt="" />
 
           </Link>
 

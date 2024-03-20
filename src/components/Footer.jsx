@@ -2,7 +2,7 @@ import React from "react";
 import { FaPhone } from "react-icons/fa";
 import { MdEmail } from "react-icons/md";
 import { FaInstagram } from "react-icons/fa";
-import Logo from "../assets/images/logo.png";
+import NewLogo from "../assets/images/newlogo.png";
 import { Link } from "react-router-dom";
 import image2 from '../assets/images/image002.jpg';
 import image3 from '../assets/images/image003.jpg';
@@ -18,7 +18,7 @@ const Footer = () => {
           <div className="col-md-4 col-sm-12  d-flex justify-content-center align-items-center flex-column my-5">
             <div className="div">
               <div className="logo mb-5">
-                <img className="logo-img" src={Logo} alt="" />
+                <img className="logo-img" src={NewLogo} alt="" />
               </div>
               <div className="phone mt-3">
                 <FaPhone />

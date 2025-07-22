@@ -24,8 +24,6 @@ import Gal11 from "../assets/images/gal11.jpeg";
 import Gal12 from "../assets/images/gal12.jpeg";
 import Gal13 from "../assets/images/gal13.jpeg";
 
-
-
 function Gallary() {
   return (
     <div>
@@ -45,127 +43,127 @@ function Gallary() {
             </div>
           </div>
         </div>
-        <div class="container-fluid gallery-container m-0">
-          <div class="tz-gallery">
-            <div class="row">
-              <div class="col-sm-12 col-md-8">
-                <div class="lightbox">
-                  <img src={LightedKitchen} alt="Bridge" />
+        <div className="container-fluid gallery-container m-0">
+          <div className="tz-gallery">
+            <div className="row">
+              <div className="col-sm-12 col-md-8">
+                <div className="lightbox">
+                  <img src={LightedKitchen} alt="Bridge" loading="lazy" />
                 </div>
               </div>
-              <div class="col-sm-6 col-md-4">
-                <div class="lightbox">
-                  <img src={OpenKitchen} alt="Park" />
+              <div className="col-sm-6 col-md-4">
+                <div className="lightbox">
+                  <img src={OpenKitchen} alt="Park" loading="lazy" />
                 </div>
               </div>
-              <div class="col-sm-6 col-md-4">
-                <div class="lightbox">
-                  <img src={IndoorKitchen} alt="Tunnel" />
+              <div className="col-sm-6 col-md-4">
+                <div className="lightbox">
+                  <img src={IndoorKitchen} alt="Tunnel" loading="lazy" />
                 </div>
               </div>
-              <div class="col-sm-12 col-md-8">
-                <div class="lightbox">
-                  <img src={KitchenThree} alt="Traffic" />
+              <div className="col-sm-12 col-md-8">
+                <div className="lightbox">
+                  <img src={KitchenThree} alt="Traffic" loading="lazy" />
                 </div>
               </div>
-              <div class="col-sm-6 col-md-4">
-                <div class="lightbox">
-                  <img src={OpenRoom} alt="Coast" />
+              <div className="col-sm-6 col-md-4">
+                <div className="lightbox">
+                  <img src={OpenRoom} alt="Coast" loading="lazy" />
                 </div>
               </div>
-              <div class="col-sm-6 col-md-4">
-                <div class="lightbox">
-                  <img src={Bath} alt="Rails" />
+              <div className="col-sm-6 col-md-4">
+                <div className="lightbox">
+                  <img src={Bath} alt="Rails" loading="lazy" />
                 </div>
               </div>
-              <div class="col-sm-12 col-md-4">
-                <div class="lightbox">
-                  <img src={Gallery1} alt="Bridge" />
+              <div className="col-sm-12 col-md-4">
+                <div className="lightbox">
+                  <img src={Gallery1} alt="Bridge" loading="lazy" />
                 </div>
               </div>
-              <div class="col-sm-6 col-md-4">
-                <div class="lightbox">
-                  <img src={Gallery2} alt="Park" />
+              <div className="col-sm-6 col-md-4">
+                <div className="lightbox">
+                  <img src={Gallery2} alt="Park" loading="lazy" />
                 </div>
               </div>
-              <div class="col-sm-6 col-md-4">
-                <div class="lightbox">
-                  <img src={Gallery3} alt="Tunnel" />
+              <div className="col-sm-6 col-md-4">
+                <div className="lightbox">
+                  <img src={Gallery3} alt="Tunnel" loading="lazy" />
                 </div>
               </div>
-              <div class="col-sm-6 col-md-4">
-                <div class="lightbox">
-                  <img src={Renovation} alt="Tunnel" />
+              <div className="col-sm-6 col-md-4">
+                <div className="lightbox">
+                  <img src={Renovation} alt="Tunnel" loading="lazy" />
                 </div>
               </div>
-              <div class="col-sm-12 col-md-8">
-                <div class="lightbox">
-                  <img src={Gallery4} alt="Traffic" />
+              <div className="col-sm-12 col-md-8">
+                <div className="lightbox">
+                  <img src={Gallery4} alt="Traffic" loading="lazy" />
                 </div>
               </div>
-              <div class="col-sm-6 col-md-4">
-                <div class="lightbox">
-                  <img src={Gallery5} alt="Coast" />
+              <div className="col-sm-6 col-md-4">
+                <div className="lightbox">
+                  <img src={Gallery5} alt="Coast" loading="lazy" />
                 </div>
               </div>
-              <div class="col-sm-12 col-md-8">
-                <div class="lightbox">
-                  <img src={Gal1} alt="Bridge" />
+              <div className="col-sm-12 col-md-8">
+                <div className="lightbox">
+                  <img src={Gal1} alt="Bridge" loading="lazy" />
                 </div>
               </div>
-              <div class="col-sm-6 col-md-4">
-                <div class="lightbox">
-                  <img src={Gal2} alt="Park" />
+              <div className="col-sm-6 col-md-4">
+                <div className="lightbox">
+                  <img src={Gal2} alt="Park" loading="lazy" />
                 </div>
               </div>
-              <div class="col-sm-6 col-md-4">
-                <div class="lightbox">
-                  <img src={Gal3} alt="Tunnel" />
+              <div className="col-sm-6 col-md-4">
+                <div className="lightbox">
+                  <img src={Gal3} alt="Tunnel" loading="lazy" />
                 </div>
               </div>
-              <div class="col-sm-12 col-md-8">
-                <div class="lightbox">
-                  <img src={Gal4} alt="Traffic" />
+              <div className="col-sm-12 col-md-8">
+                <div className="lightbox">
+                  <img src={Gal4} alt="Traffic" loading="lazy" />
                 </div>
               </div>
-              <div class="col-sm-6 col-md-4">
-                <div class="lightbox">
-                  <img src={Gal6} alt="Coast" />
+              <div className="col-sm-6 col-md-4">
+                <div className="lightbox">
+                  <img src={Gal6} alt="Coast" loading="lazy" />
                 </div>
               </div>
-              <div class="col-sm-6 col-md-4">
-                <div class="lightbox">
-                  <img src={Gal7} alt="Rails" />
+              <div className="col-sm-6 col-md-4">
+                <div className="lightbox">
+                  <img src={Gal7} alt="Rails" loading="lazy" />
                 </div>
               </div>
-              <div class="col-sm-12 col-md-4">
-                <div class="lightbox">
-                  <img src={Gal8} alt="Bridge" />
+              <div className="col-sm-12 col-md-4">
+                <div className="lightbox">
+                  <img src={Gal8} alt="Bridge" loading="lazy" />
                 </div>
               </div>
-              <div class="col-sm-6 col-md-4">
-                <div class="lightbox">
-                  <img src={Gal9} alt="Park" />
+              <div className="col-sm-6 col-md-4">
+                <div className="lightbox">
+                  <img src={Gal9} alt="Park" loading="lazy" />
                 </div>
               </div>
-              <div class="col-sm-6 col-md-4">
-                <div class="lightbox">
-                  <img src={Gal10} alt="Tunnel" />
+              <div className="col-sm-6 col-md-4">
+                <div className="lightbox">
+                  <img src={Gal10} alt="Tunnel" loading="lazy" />
                 </div>
               </div>
-              <div class="col-sm-6 col-md-4">
-                <div class="lightbox">
-                  <img src={Gal11} alt="Tunnel" />
+              <div className="col-sm-6 col-md-4">
+                <div className="lightbox">
+                  <img src={Gal11} alt="Tunnel" loading="lazy" />
                 </div>
               </div>
-              <div class="col-sm-12 col-md-8">
-                <div class="lightbox">
-                  <img src={Gal12} alt="Traffic" />
+              <div className="col-sm-12 col-md-8">
+                <div className="lightbox">
+                  <img src={Gal12} alt="Traffic" loading="lazy" />
                 </div>
               </div>
-              <div class="col-sm-6 col-md-4">
-                <div class="lightbox">
-                  <img src={Gal13} alt="Coast" />
+              <div className="col-sm-6 col-md-4">
+                <div className="lightbox">
+                  <img src={Gal13} alt="Coast" loading="lazy" />
                 </div>
               </div>
             </div>
